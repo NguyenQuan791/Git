@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 3349879733
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: pagesassetbundles
+      Dependencies: {}
