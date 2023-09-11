@@ -31,11 +31,7 @@ public class TextController : MonoBehaviour
 
         syncTexts = JsonUtility.FromJson<ArraySyncText>("{\"array\":" + jsonString + "}");
 
-        times = 0;
-
-        AudioSource audioSource = FindObjectOfType<AudioSource>();
-
-        audioSource.Play();
+        times = 0; 
     }
 
     void SyncText(string text)
