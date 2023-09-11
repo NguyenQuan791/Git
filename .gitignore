@@ -69,4 +69,16 @@ crashlytics-build.properties
 
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+=======
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+>>>>>>> 7096988c3f59170432ecc0d0437a7ad994ddc8d0
+=======
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+>>>>>>> origin/main
+=======
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+>>>>>>> origin/main

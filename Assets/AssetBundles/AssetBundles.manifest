@@ -1,7 +1,27 @@
 ManifestFileVersion: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+CRC: 90617848
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: uis
+=======
+=======
+>>>>>>> origin/main
+=======
+>>>>>>> origin/main
 CRC: 3349879733
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
       Name: pagesassetbundles
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 7096988c3f59170432ecc0d0437a7ad994ddc8d0
+=======
+>>>>>>> origin/main
+=======
+>>>>>>> origin/main
       Dependencies: {}

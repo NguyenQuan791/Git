@@ -1,0 +1,140 @@
+ManifestFileVersion: 0
+CRC: 2798766914
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5ec9b52f05421c40931f636e687ebdd2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bcb91c80844614ea3084e8a0d7dafb9f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 60
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 59179f70cfbf6934095c1eda39f43a96, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9aad7ac112a75584e87762daba6a712d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4172fe4d3af977648b540bb1b0344890, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.FaceInfo_Legacy
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.FontAssetCreationSettings
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.KerningTable
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_Character
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_FontFeatureTable
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_FontWeightPair
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_GlyphAdjustmentRecord
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_GlyphPairAdjustmentRecord
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_GlyphValueRecord
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.VertexGradient
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.RectOffset
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.FaceInfo
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.Glyph
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.GlyphMetrics
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.GlyphRect
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.AnimationTriggers
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Button/ButtonClickedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ColorBlock
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Navigation
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.SpriteState
+Assets:
+- Assets/audios/fork.mp3
+- Assets/audios/lettuce.mp3
+- Assets/audios/spatula.mp3
+- Assets/audios/cucumber.mp3
+- Assets/Prefabs/Options Button.prefab
+- Assets/Prefabs/_Page01.prefab
+- "Assets/audios/Let\u2019s Make a Salad Bowl!.mp3"
+- Assets/audios/Hey, do you want to eat some salads_.mp3
+- Assets/audios/boiling water.mp3
+- Assets/audios/I will boil the eggs and fry the pork.mp3
+- Assets/audios/sink.mp3
+- Assets/audios/cooking pot.mp3
+- Assets/audios/pineapple.mp3
+- Assets/audios/tap.mp3
+- Assets/audios/dressing.mp3
+- Assets/audios/Finally, I will add the dressing..mp3
+- Assets/audios/Don_t forget to add some cheese!.mp3
+- Assets/audios/chopping board.mp3
+- Assets/audios/It_s fun to make something together. Now let_s enjoy!.mp3
+- Assets/audios/frying pan.mp3
+- Assets/audios/cheese grater.mp3
+- Assets/audios/boy.mp3
+- Assets/audios/Now we need to mix them together.mp3
+- Assets/audios/pork.mp3
+- Assets/audios/Let_s make a salad bowl.mp3
+- Assets/audios/Sounds great.mp3
+- Assets/audios/spoon.mp3
+- Assets/audios/carrot.mp3
+- Assets/audios/Of course we need some fruits and vegetables..mp3
+- Assets/audios/apple.mp3
+- Assets/audios/salad bowl.mp3
+- Assets/audios/cheese.mp3
+- Assets/audios/egg.mp3
+- Assets/audios/bowl.mp3
+- Assets/audios/The salad bowl looks so delicious!.mp3
+- Assets/audios/I will shred some lettuce.mp3
+- Assets/audios/knife.mp3
+- Assets/audios/gas stove.mp3
+Dependencies: []
