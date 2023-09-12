@@ -16,6 +16,6 @@ public class SyncText
 [System.Serializable]
 public class ArraySyncText
 {
-    public SyncText[] array;
+    public SyncText[] sync_data;
 }
 

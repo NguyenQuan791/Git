@@ -11,6 +11,8 @@ public class SpamTexts : MonoBehaviour
     public string Text;
     public Transform Parent;
 
+    static GameObject isSpam;
+
     private void OnMouseDown()
     {
         if(SpamText && Text!=null && Parent)
@@ -21,9 +23,15 @@ public class SpamTexts : MonoBehaviour
 
             textSpam.text = Text;
 
-            GameObject spamText= Instantiate(SpamText, mose, Quaternion.identity, Parent);
+            if (isSpam)
+            {
+                Destroy(isSpam);
+            }
 
-            Destroy(spamText, 2f);
+            GameObject spamText = Instantiate(SpamText, mose, Quaternion.identity, Parent);
+            isSpam = spamText;
+
+            Destroy(spamText,1.5f);
         }
     }
 }
