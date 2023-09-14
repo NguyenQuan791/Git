@@ -1,19 +1,21 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
+using System.Net;
+using UnityEditor;
 using UnityEngine;
 
 public class Audios : MonoBehaviour
 {
-    public AudioSource Aus;
-    public AudioClip Auc;
+    public AudioSource audioSource;
+    public AudioClip audioClip;
 
     private void OnMouseDown()
     {
-        Debug.Log(Aus);
-        if (Aus && Auc)
+        if (audioSource && audioClip)
         {
-            Debug.Log(Auc);
-            Aus.PlayOneShot(Auc);
+            audioSource.PlayOneShot(audioClip);
         }
     }
 }

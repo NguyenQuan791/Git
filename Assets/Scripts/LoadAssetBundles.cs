@@ -7,7 +7,7 @@ using UnityEngine.Assertions;
 
 public class LoadAssetBundles : MonoBehaviour
 {
-    public Transform Parent;
+    public Transform parentTransform;
     private void Start()
     {
         var myLoadedAssetBundle
@@ -28,7 +28,7 @@ public class LoadAssetBundles : MonoBehaviour
                 {
                     return;
                 }
-                Instantiate(prefab, Parent);
+                Instantiate(prefab, parentTransform);
             }
         }
     }

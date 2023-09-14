@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 
 public class LoadApi : MonoBehaviour
 {
-    public Transform parent;
+    public Transform parentTransform;
 
     ImageContent image;
     string fileContent;
@@ -37,13 +38,49 @@ public class LoadApi : MonoBehaviour
             foreach(var img in image.image)
             {
                 GameObject test = new GameObject();
+
                 test.AddComponent<PolygonCollider2D>();
                 test.AddComponent<RectTransform>();
+                test.AddComponent<Audios>();
+                test.AddComponent<SpamTexts>();
+
+                Audios audio = test.GetComponent<Audios>();
+                SpamTexts spam = test.GetComponent<SpamTexts>();
                 RectTransform rect = test.GetComponent<RectTransform>();
+
+                audio.audioSource = FindObjectOfType<AudioSource>();
+                spam.SpamText = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Prefabs/Spam text.prefab");
+                spam.Parent = gameObject.transform;
+
                 rect.position = StringToVector2(img.position);
                 rect.anchorMax = new Vector2(0, 0);
                 rect.anchorMin = new Vector2(0, 0);
                 rect.sizeDelta = new Vector2(150, 150);
+
+                if(img.word_id == 40000183)
+                {
+                    audio.audioClip = AssetDatabase.LoadAssetAtPath<AudioClip>("Assets/audios/boy.mp3");
+                    spam.Text = "Boy";
+                    spam.number = 3;
+                }
+                else if(img.word_id == 40000177)
+                {
+                    audio.audioClip = AssetDatabase.LoadAssetAtPath<AudioClip>("Assets/audios/spoon.mp3");
+                    spam.Text = "Spoon";
+                    spam.number = 2;
+                }
+                else if (img.word_id == 40000178)
+                {
+                    audio.audioClip = AssetDatabase.LoadAssetAtPath<AudioClip>("Assets/audios/fork.mp3");
+                    spam.Text = "Fork";
+                    spam.number = 1;
+                }
+                else
+                {
+                    audio.audioClip = AssetDatabase.LoadAssetAtPath<AudioClip>("Assets/audios/salad bowl.mp3");
+                    spam.Text = "Salad bowl";
+                    spam.number = 0;
+                }
                 foreach (var item in img.touch)
                 {
                     PolygonCollider2D col = test.GetComponent<PolygonCollider2D>();
@@ -54,7 +91,7 @@ public class LoadApi : MonoBehaviour
                     }
                     col.points = points.ToArray();
                 }
-                Instantiate(test, parent);
+                Instantiate(test, this.parentTransform);
                 Destroy(test);
             }
         }
